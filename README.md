@@ -1,11 +1,13 @@
 ## Banking Demo
 #ketentuan :
+- install mysql terlebih dahulu dan buat database-name = banking. user access = java dan password java123
 - data sudah diinialisasi sebelum bisa digunakan, dalam ini ada user:0B100, password : 12345678.
 - harus login terlebih dahulu untuk mendapat token
 - setelah itu baru bisa menggunakan beberapa fitur yaitu : daftar, deposit, withdraw dan lihat transaksi.
 
 ## Test login :
 ```curl -H "Accept: application/json" -H "Content-type: application/json" -X POST -d "{"""username""":"""0B100""","""password""":"""12345678"""}" http://localhost:8080/login-auth```
+
 
 ## Contoh "X-Auth-Token: ```eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIwQjEwMCIsImF1ZGllbmNlIjoidW5rbm93biIsIml1c2VybmFtZSI6IlRPTU1ZIFRBTlNFTiIsImNyZWF0ZWQiOjE1MjY2MTQ4MDc3MjAsImV4cCI6MTUyNjYxNTQxMn0.CwR-GYEtPhCyHOio0zSu59MYRzNaR3YK1mgmkMSqj_Sha45oZ83Xk3u17nDPxZdzFoqXoM6NXwanhe677hPk7Q"```
 
