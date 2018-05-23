@@ -9,6 +9,7 @@
 ```curl -H "Accept: application/json" -H "Content-type: application/json" -X POST -d "{"""username""":"""0B100""","""password""":"""12345678"""}" http://localhost:8080/login-auth```
 
 
+Jika login berhasil, akan dikembalikan dalam bentuk token.
 ## Contoh "X-Auth-Token: ```eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIwQjEwMCIsImF1ZGllbmNlIjoidW5rbm93biIsIml1c2VybmFtZSI6IlRPTU1ZIFRBTlNFTiIsImNyZWF0ZWQiOjE1MjY2MTQ4MDc3MjAsImV4cCI6MTUyNjYxNTQxMn0.CwR-GYEtPhCyHOio0zSu59MYRzNaR3YK1mgmkMSqj_Sha45oZ83Xk3u17nDPxZdzFoqXoM6NXwanhe677hPk7Q"```
 
 ## Test daftar :
